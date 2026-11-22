@@ -1,0 +1,3 @@
+# B4 — Final Engineering Recommendation
+
+For growth to three times current traffic, provision capacity using observed peak utilization rather than assuming latency scales linearly. Regional application front ends and CDN caching reduce distance and repeated transfers; QoS protects voice; SNMPv3 and application metrics identify bottlenecks. Keep payment and booking APIs behind a WAF and upstream DDoS mitigation, with rate limits that preserve legitimate peak usage. Validate after deployment using the same RTT, loss, voice quality and page-load tests. Multi-region operation can improve international RTT but adds database replication, consistency and operational costs.
