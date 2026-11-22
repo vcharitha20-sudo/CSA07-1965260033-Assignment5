@@ -1,0 +1,3 @@
+# A5 — Availability and Defensive Protection
+
+A finite half-open connection queue can be exhausted by sustained unwanted connection attempts; SYN cookies reduce reliance on stored half-open state. DNS amplification abuses mismatched request and response sizes and spoofed sources. Defenses include source-address validation (BCP 38), upstream filtering, managed scrubbing, rate controls and a CDN. A cloud WAF helps with malicious HTTP requests but cannot by itself absorb all network-layer floods. Blocking addresses individually scales poorly for large distributed or spoofed-source traffic. Test resilience only in an isolated simulator or approved lab; never direct stress traffic at public systems.
