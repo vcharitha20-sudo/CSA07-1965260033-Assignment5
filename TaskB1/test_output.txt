@@ -1,0 +1,10 @@
+Original trace
+packet loss 16.7 %
+average delay 49.8 ms, jitter 2.80 ms
+R-factor 53.4, MOS 2.75
+VoIP quality: poor
+No lost packets
+packet loss 0.0 %
+average delay 49.8 ms, jitter 2.66 ms
+R-factor 91.3, MOS 4.37
+VoIP quality: good
