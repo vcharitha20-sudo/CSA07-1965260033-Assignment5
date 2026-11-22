@@ -1,0 +1,3 @@
+# B3 — Stress Testing and Defensive Validation
+
+Use only isolated lab or simulator experiments. Compare controlled impairment scenarios with 20/100/250 ms added delay and 0.5/2/8% modeled loss. Record TCP throughput, jitter and MOS, and repeat with small and large TCP windows. Predict that a 128 KiB window at 40 ms RTT caps throughput at ~26.21 Mbps, while a window near 50 MB is required to approach 10 Gbps before other constraints. Validate firewall ACLs using permitted and denied test flows. Evaluate SYN cookies and rate limits through safe configuration review and benign functional checks, without generating high-rate attack traffic. RED and ECN can signal congestion earlier than drop-tail under suitable traffic.
